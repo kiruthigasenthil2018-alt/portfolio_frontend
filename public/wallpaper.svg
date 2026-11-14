@@ -1,0 +1,102 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="720" viewBox="0 0 720 720" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <defs>
+    <style>
+      .l{stroke:#8B5CF6} .p{stroke:#F0589F} .s{stroke:#2FA8F0} .m{stroke:#22C39A} .a{stroke:#F5A81B} .c{stroke:#FF7A59}
+      .l,.p,.s,.m,.a,.c{stroke-width:2.6;opacity:.52}
+      .f{fill:#F0589F;stroke:none;opacity:.55} .fl{fill:#2FA8F0;stroke:none;opacity:.55}
+      .t,.tp,.ts,.tm,.ta,.tc{font-family:'JetBrains Mono',ui-monospace,Menlo,Consolas,monospace;font-size:21px;font-weight:700;stroke:none;opacity:.58}
+      .t{fill:#8B5CF6} .tp{fill:#F0589F} .ts{fill:#2FA8F0} .tm{fill:#22C39A} .ta{fill:#E59A00} .tc{fill:#FF7A59}
+    </style>
+  </defs>
+
+  <!-- code brackets </> -->
+  <path class="l" d="M72 78 L50 100 L72 122 M112 78 L134 100 L112 122 M100 70 L84 130"/>
+
+  <!-- neural network (GenAI) -->
+  <g>
+    <path class="p" d="M262 62L322 82M262 62L322 122M262 102L322 82M262 102L322 122M262 142L322 82M262 142L322 122M322 82L382 102M322 122L382 102"/>
+    <circle class="p" cx="262" cy="62" r="7"/><circle class="p" cx="262" cy="102" r="7"/><circle class="p" cx="262" cy="142" r="7"/>
+    <circle class="p" cx="322" cy="82" r="7"/><circle class="p" cx="322" cy="122" r="7"/>
+    <circle class="p" cx="382" cy="102" r="8"/>
+  </g>
+
+  <!-- AI sparkle -->
+  <path class="s" d="M520 52 C525 80 532 87 560 92 C532 97 525 104 520 132 C515 104 508 97 480 92 C508 87 515 80 520 52Z"/>
+  <path class="fl" d="M590 58 C592 68 594 70 604 72 C594 74 592 76 590 86 C588 76 586 74 576 72 C586 70 588 68 590 58Z"/>
+
+  <!-- database -->
+  <g class="m">
+    <ellipse cx="648" cy="150" rx="36" ry="12"/>
+    <path d="M612 150v44c0 7 16 12 36 12s36-5 36-12v-44M612 172c0 7 16 12 36 12s36-5 36-12"/>
+  </g>
+
+  <text class="ta" x="44" y="246" transform="rotate(-8 44 246)">Python</text>
+
+  <!-- cloud -->
+  <path class="c" d="M178 262h76a24 24 0 0 0 2-47 34 34 0 0 0-64-8 28 28 0 0 0-14 55z"/>
+
+  <!-- chip -->
+  <g class="l">
+    <rect x="352" y="206" width="64" height="64" rx="10"/>
+    <path d="M368 206v-14M384 206v-14M400 206v-14M368 270v14M384 270v14M400 270v14M352 222h-14M352 238h-14M352 254h-14M416 222h14M416 238h14M416 254h14"/>
+  </g>
+  <text class="t" x="368" y="246">AI</text>
+
+  <!-- gear -->
+  <g class="p">
+    <circle cx="528" cy="268" r="12"/><circle cx="528" cy="268" r="24"/>
+    <path d="M528 236v8M528 292v8M496 268h8M552 268h8M505 245l6 6M545 285l6 6M551 245l-6 6M511 285l-6 6"/>
+  </g>
+
+  <text class="ts" x="580" y="332" transform="rotate(6 580 332)">Django</text>
+
+  <!-- terminal -->
+  <g class="m">
+    <rect x="46" y="342" width="116" height="84" rx="12"/><path d="M46 366h116"/>
+    <path d="M64 388l14 10-14 10M88 408h22"/>
+  </g>
+  <circle class="f" cx="62" cy="354" r="3"/><circle class="fl" cx="74" cy="354" r="3"/><circle class="f" cx="86" cy="354" r="3"/>
+
+  <text class="ta" x="214" y="396">{ REST API }</text>
+
+  <!-- atom (front end) -->
+  <g class="c">
+    <circle cx="440" cy="396" r="5"/>
+    <ellipse cx="440" cy="396" rx="40" ry="15"/>
+    <ellipse cx="440" cy="396" rx="40" ry="15" transform="rotate(60 440 396)"/>
+    <ellipse cx="440" cy="396" rx="40" ry="15" transform="rotate(120 440 396)"/>
+  </g>
+
+  <text class="t" x="560" y="448" transform="rotate(-6 560 448)">GenAI</text>
+
+  <!-- git branch -->
+  <g class="p">
+    <circle cx="70" cy="500" r="7"/><circle cx="70" cy="560" r="7"/><circle cx="108" cy="522" r="7"/>
+    <path d="M70 507v46M70 540c0-14 18-12 31-16"/>
+  </g>
+
+  <text class="ts" x="186" y="520" transform="rotate(4 186 520)">SQL</text>
+
+  <!-- LLM chat bubble -->
+  <g class="m">
+    <rect x="292" y="486" width="104" height="64" rx="16"/><path d="M322 550l-6 20 24-20"/>
+  </g>
+  <circle class="f" cx="320" cy="518" r="5"/><circle class="fl" cx="344" cy="518" r="5"/><circle class="f" cx="368" cy="518" r="5"/>
+
+  <!-- robot guide -->
+  <g class="a">
+    <rect x="486" y="526" width="60" height="46" rx="14"/>
+    <path d="M516 526v-14"/><circle cx="516" cy="506" r="5"/>
+  </g>
+  <circle class="a" cx="503" cy="548" r="5"/><circle class="a" cx="529" cy="548" r="5"/>
+
+  <text class="tc" x="596" y="622" transform="rotate(-5 596 622)">React</text>
+
+  <text class="t" x="40" y="668">def build():</text>
+
+  <!-- tiny sparkles / dots -->
+  <path class="fl" d="M210 612 C211 618 212 619 218 620 C212 621 211 622 210 628 C209 622 208 621 202 620 C208 619 209 618 210 612Z"/>
+  <path class="f" d="M452 628 C453 634 454 635 460 636 C454 637 453 638 452 644 C451 638 450 637 444 636 C450 635 451 634 452 628Z"/>
+  <path class="f" d="M668 40 C669 46 670 47 676 48 C670 49 669 50 668 56 C667 50 666 49 660 48 C666 47 667 46 668 40Z"/>
+  <circle class="f" cx="178" cy="150" r="4"/><circle class="fl" cx="470" cy="186" r="4"/><circle class="f" cx="690" cy="470" r="4"/><circle class="fl" cx="30" cy="450" r="4"/><circle class="f" cx="400" cy="640" r="4"/>
+</svg>

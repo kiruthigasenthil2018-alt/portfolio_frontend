@@ -1,0 +1,551 @@
+{
+  "stats": {
+    "visits": 0
+  },
+  "reports_zip": "/reports/all-project-reports.zip",
+  "profile": {
+    "name": "Kiruthiga",
+    "status_badge": "Full Stack: React + Django",
+    "hero_title": "From Blueprints → Backends.",
+    "hero_subtitle": "Kiruthiga — a Civil Engineering graduate who re-drew her own plans for the web. I build full-stack applications with React and Django, from the interface to the database.",
+    "hero_stack_line": "React · React Native · Django · REST APIs · MySQL · PostgreSQL",
+    "marquee_items": [
+      "HTML5",
+      "CSS3",
+      "JavaScript",
+      "React",
+      "React Native",
+      "Bootstrap",
+      "Python",
+      "Django",
+      "REST APIs",
+      "MySQL",
+      "PostgreSQL",
+      "MongoDB",
+      "Git & GitHub"
+    ],
+    "hero_roles": [
+      "Full Stack Developer",
+      "React & React Native Builder",
+      "Django REST API Developer",
+      "GenAI Python Full Stack Learner"
+    ],
+    "photo": "/profile.jpg",
+    "about_title": "Structural thinking, now applied to code.",
+    "about_paragraphs": [
+      "I started out in civil engineering — measuring loads, reading site drawings, thinking in structures and systems. That same instinct for how things are built is what pulled me toward software.",
+      "I learned the front end first — HTML, CSS, JavaScript, Bootstrap and React — and then added Python and Django so I can ship full projects end to end: a React or React Native interface, a Django REST backend, a database and an admin panel to run it."
+    ],
+    "contact_title": "Let's build something together.",
+    "contact_text": "Open to junior developer roles, internships and collaborations. I'd love to talk about where I can help.",
+    "email": "kiruthigasenthil2018@gmail.com",
+    "linkedin_url": "https://www.linkedin.com/in/kiruthiga-vengatesan-796002247",
+    "github_url": "https://github.com/kiruthigasenthil2018-alt",
+    "location": "Hosur, India",
+    "resume_url": "/Kiruthiga_V_Resume.pdf",
+    "resume_title": "GenAI Python Full Stack Developer",
+    "resume_subtitle": "Civil Engineering background · React + Django full stack projects"
+  },
+  "robot": {
+    "hero": "Hi, I'm Kiruthiga's AI guide. Scroll down and I'll walk you through each section.",
+    "about": "This is Kiruthiga's story — where she started, and where she's headed. She has a B.E. in Civil Engineering and now builds full-stack applications with React, React Native and Django.",
+    "skills": "These are the tools Kiruthiga builds with: React and React Native on the front, Python, Django and REST APIs on the back, and SQL and NoSQL databases underneath.",
+    "projects": "Real, deployed projects. StepUp.in is a React and Django shoe store, Supplyhive is a Django stationery shop, TaskMaster is a React Native to-do app, and LearnNova is a React learning app. Each one has a downloadable project report.",
+    "journey": "Here's the path from civil engineering to full-stack development, one step at a time.",
+    "resume": "Want the full picture? Here's Kiruthiga's resume. You can preview it right here, or download a copy to keep.",
+    "contact": "Want to work together? Kiruthiga is open to junior developer roles, internships and collaborations. Send a message below, or reach her by email, LinkedIn or GitHub.",
+    "reports": "Every project has a written report. Click Preview to read it right here, or Download to keep a PDF copy."
+  },
+  "about_rows": [
+    {
+      "emoji": "building",
+      "label": "BACKGROUND",
+      "value": "B.E. Civil Engineering"
+    },
+    {
+      "emoji": "palette",
+      "label": "FRONTEND",
+      "value": "HTML, CSS, JavaScript, React, React Native, Bootstrap"
+    },
+    {
+      "emoji": "cog",
+      "label": "BACKEND",
+      "value": "Python, Django, REST APIs, MySQL, PostgreSQL, MongoDB"
+    },
+    {
+      "emoji": "git-branch",
+      "label": "VERSION CONTROL",
+      "value": "Git & GitHub"
+    },
+    {
+      "emoji": "languages",
+      "label": "LANGUAGES SPOKEN",
+      "value": "English · Hindi · Tamil · Telugu"
+    },
+    {
+      "emoji": "status",
+      "label": "STATUS",
+      "value": "Open to junior developer roles & internships"
+    }
+  ],
+  "skill_groups": [
+    {
+      "emoji": "palette",
+      "title": "Frontend",
+      "tag": "COMPLETE",
+      "tag_color": "lavender",
+      "items": [
+        {
+          "emoji": "globe",
+          "name": "HTML5",
+          "level": "solid",
+          "pct": 92
+        },
+        {
+          "emoji": "palette",
+          "name": "CSS3",
+          "level": "solid",
+          "pct": 90
+        },
+        {
+          "emoji": "zap",
+          "name": "JavaScript",
+          "level": "solid",
+          "pct": 85
+        },
+        {
+          "emoji": "atom",
+          "name": "React.js",
+          "level": "comfortable",
+          "pct": 78
+        },
+        {
+          "emoji": "smartphone",
+          "name": "React Native",
+          "level": "comfortable",
+          "pct": 65
+        },
+        {
+          "emoji": "grid",
+          "name": "Bootstrap",
+          "level": "comfortable",
+          "pct": 78
+        }
+      ]
+    },
+    {
+      "emoji": "cog",
+      "title": "Backend",
+      "tag": "BUILDING",
+      "tag_color": "pink",
+      "items": [
+        {
+          "emoji": "terminal",
+          "name": "Python",
+          "level": "comfortable",
+          "pct": 68
+        },
+        {
+          "emoji": "target",
+          "name": "Django",
+          "level": "comfortable",
+          "pct": 66
+        },
+        {
+          "emoji": "plug",
+          "name": "REST APIs",
+          "level": "comfortable",
+          "pct": 62
+        },
+        {
+          "emoji": "database",
+          "name": "MySQL / PostgreSQL",
+          "level": "learning",
+          "pct": 52
+        },
+        {
+          "emoji": "leaf",
+          "name": "MongoDB",
+          "level": "exploring",
+          "pct": 35
+        }
+      ]
+    },
+    {
+      "emoji": "wrench",
+      "title": "Tools & Workflow",
+      "tag": "COMPLETE",
+      "tag_color": "mint",
+      "items": [
+        {
+          "emoji": "git-branch",
+          "name": "Git & GitHub",
+          "level": "solid",
+          "pct": 88
+        },
+        {
+          "emoji": "monitor",
+          "name": "VS Code",
+          "level": "solid",
+          "pct": 90
+        },
+        {
+          "emoji": "ruler",
+          "name": "Responsive Design",
+          "level": "comfortable",
+          "pct": 78
+        },
+        {
+          "emoji": "send",
+          "name": "Postman",
+          "level": "exploring",
+          "pct": 40
+        }
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "id": 1,
+      "slug": "stepup-in",
+      "emoji": "footprints",
+      "accent": "pink",
+      "title": "StepUp.in — Shoe E-commerce",
+      "category": "Full Stack · React + Django REST",
+      "short_description": "A shoe store for women, men and kids with search, wishlist, cart, profiles and offers — a React (Vite) frontend talking to a Django REST backend.",
+      "image": "/projects/stepup.jpg",
+      "gallery": [
+        {
+          "image": "/projects/stepup.jpg",
+          "caption": "Home page"
+        }
+      ],
+      "tech_stack": [
+        "React (Vite)",
+        "JavaScript",
+        "CSS",
+        "Django",
+        "Django REST Framework",
+        "Vercel (frontend)",
+        "Render (backend)"
+      ],
+      "live_url": "https://stepup-frontend-ten.vercel.app/",
+      "backend_url": "https://stepup-backend-hg5k.onrender.com",
+      "backend_label": "Django Backend",
+      "repo_url": "",
+      "overview": "StepUp.in is a full-stack shoe e-commerce application designed from a Figma design. A React (Vite) single-page frontend is deployed on Vercel and consumes a Django REST backend deployed on Render. Shoppers can browse categories, search, save favourites to a wishlist, fill a cart and manage a profile, while the Django admin lets the owner manage the catalogue and orders.",
+      "objectives": [
+        "Turn the Figma design into a responsive, smooth multi-page React storefront.",
+        "Build a Django REST API for products, users, wishlist, cart and orders.",
+        "Provide offers such as a first-order discount and a clear sign-up / login flow.",
+        "Give the shop owner an admin panel to manage products, users and orders."
+      ],
+      "features": [
+        "Category navigation: Womens, Mens, Kids, Brands and Offers.",
+        "Search bar and promotional banner carousel with offers (e.g. first-order discount).",
+        "Wishlist and cart with live counters in the header.",
+        "User accounts and profile with avatar; guests are guided to sign up.",
+        "Checkout and payment-method flow with form validation.",
+        "Django admin for products, users, wishlist, cart and orders."
+      ],
+      "architecture": "The React (Vite) frontend runs as a static site on Vercel and calls the Django REST API over HTTPS. The API (Django + Django REST Framework) is hosted on Render and handles authentication, catalogue, wishlist, cart and order data. CORS is configured so only the deployed frontend can call the API.",
+      "my_role": "I built both halves: designed the React pages and components from the Figma file, wrote the Django models, serializers and REST endpoints, connected them, and deployed the frontend and backend separately.",
+      "challenges": [
+        "Wiring authentication and session handling between a separately hosted frontend and backend.",
+        "Keeping the cart and wishlist counters in sync across pages.",
+        "Configuring CORS and environment variables for local and production use.",
+        "Deploying a Django API on a free hosting tier and handling its cold starts."
+      ],
+      "outcome": "A deployed, working shop with a separate frontend and backend that demonstrates a complete React + Django REST workflow.",
+      "report_url": "/reports/stepup-in-project-report.pdf"
+    },
+    {
+      "id": 2,
+      "slug": "supplyhive-stationery-shop",
+      "emoji": "pencil",
+      "accent": "sky",
+      "title": "Supplyhive — Stationery Shop",
+      "category": "Full Stack · Django",
+      "short_description": "A stationery e-commerce site built with Django: shop, search, wishlist, cart, accounts and a feature-rich admin for orders, reviews and messages.",
+      "image": "/projects/supplyhive.jpg",
+      "gallery": [
+        {
+          "image": "/projects/supplyhive.jpg",
+          "caption": "Home page"
+        }
+      ],
+      "tech_stack": [
+        "Django",
+        "Python",
+        "HTML5",
+        "CSS3",
+        "JavaScript",
+        "SQL database",
+        "Vercel"
+      ],
+      "live_url": "https://stationeryshop-loli-kappa.vercel.app/",
+      "backend_url": "",
+      "backend_label": "Backend API",
+      "repo_url": "",
+      "overview": "Supplyhive is an online stationery store built with Django. Visitors can browse the shop, search for stationery, keep a wishlist and cart, and register or log in. Bulk-order offers (up to 50% off) are highlighted on the home page, and the owner manages everything from the Django admin.",
+      "objectives": [
+        "Build a complete Django e-commerce flow: catalogue, search, cart, wishlist and accounts.",
+        "Give the owner an admin to manage orders, customers, reviews and messages.",
+        "Promote bulk-order discounts with a clean, readable home page."
+      ],
+      "features": [
+        "Home, Shop, About us and Contact pages with a persistent search bar.",
+        "Login / Register with email OTP verification.",
+        "Wishlist, cart and profile pages.",
+        "Promotional banner for bulk orders (up to 50% off).",
+        "Product reviews and a contact form.",
+        "Admin: orders list with tracking map, filters, email OTPs, wishlists, profiles, reviews and contact messages."
+      ],
+      "architecture": "A Django project using templates for the pages and Django's ORM for products, users, carts, wishlists, orders and reviews. The built-in admin is extended to list and filter orders and show tracking information. Email OTPs are sent through SMTP.",
+      "my_role": "I designed the page layouts, wrote the Django models, views and templates, customised the admin and deployed the site.",
+      "challenges": [
+        "Modelling carts, wishlists and orders so they stay consistent when users log in and out.",
+        "Sending email OTPs reliably through SMTP.",
+        "Customising the Django admin so orders are easy to filter and track."
+      ],
+      "outcome": "A live Django store with customer-facing pages and an admin that the shop owner can run day to day. It became the reference for the later StepUp.in project.",
+      "report_url": "/reports/supplyhive-stationery-shop-project-report.pdf"
+    },
+    {
+      "id": 3,
+      "slug": "taskmaster-todo-app",
+      "emoji": "check-square",
+      "accent": "lavender",
+      "title": "TaskMaster — To-Do List App",
+      "category": "Mobile App · React Native (Expo)",
+      "short_description": "A Todoist-style to-do list mobile app built with React Native and Expo: Inbox, Today, Upcoming, categories, subtasks, due dates and reminders.",
+      "image": "/projects/taskmaster-web.jpg",
+      "gallery": [
+        {
+          "image": "/projects/taskmaster-web.jpg",
+          "caption": "Web view"
+        },
+        {
+          "image": "/projects/taskmaster-mobile.jpg",
+          "caption": "Mobile view"
+        }
+      ],
+      "tech_stack": [
+        "React Native",
+        "Expo (SDK 52)",
+        "React Navigation",
+        "AsyncStorage",
+        "Lexend font",
+        "Expo Web build",
+        "Vercel"
+      ],
+      "live_url": "https://taskmasterapp-kappa.vercel.app/",
+      "backend_url": "",
+      "backend_label": "Backend API",
+      "repo_url": "",
+      "overview": "TaskMaster is a to-do list mobile app built with React Native and Expo as an internship project, following a Figma design and prototype. It runs on Android and iOS through Expo Go and on the web as a deployed build. The home screen greets the user and shows Today, Upcoming, Pending and Done counters above a menu of Add task, Inbox, Today, Upcoming, Completed and Projects.",
+      "objectives": [
+        "Recreate the Figma UI faithfully using the Lexend font and the primary blue (#126EED).",
+        "Implement authentication with persistent login.",
+        "Organise tasks with categories, subtasks, due dates and priorities.",
+        "Run the same codebase on mobile and web."
+      ],
+      "features": [
+        "Register / login with validation and show / hide password; login persists using AsyncStorage.",
+        "Home dashboard with Today, Upcoming, Pending and Done counters.",
+        "Inbox, Today, Upcoming, Completed and Projects views with a bottom tab bar (Tasks, Categories, Completed).",
+        "Add tasks with categories, subtasks and a calendar due-date picker that blocks past dates.",
+        "Mark tasks as completed, bell reminder notifications and profile avatars.",
+        "Splash screen and custom app icon."
+      ],
+      "architecture": "A single React Native codebase built with Expo. React Navigation handles the stack and tab navigation, application state is kept in React and persisted locally with AsyncStorage, and the Expo web export is deployed to Vercel.",
+      "my_role": "Built the app end to end during the internship: translated the Figma screens into components, implemented navigation, forms and validation, local persistence and the web deployment.",
+      "challenges": [
+        "Matching the Figma design on both mobile and web with one codebase.",
+        "Handling date validation and the calendar picker consistently across platforms.",
+        "Keeping login state and task data persistent between sessions."
+      ],
+      "outcome": "A working to-do app available on mobile through Expo Go and as a live web build, delivered within the internship timeline.",
+      "report_url": "/reports/taskmaster-todo-app-project-report.pdf"
+    },
+    {
+      "id": 4,
+      "slug": "learnnova-learning-app",
+      "emoji": "star",
+      "accent": "amber",
+      "title": "LearnNova — Kids Learning App",
+      "category": "Web App · React",
+      "short_description": "“Learn · Play · Explore · Grow” — a playful learning app for kids with A–Z phonics and sounds, games, and a friendly onboarding flow, built in React.",
+      "image": "/projects/learnnova.jpg",
+      "gallery": [
+        {
+          "image": "/projects/learnnova.jpg",
+          "caption": "Welcome screen"
+        }
+      ],
+      "tech_stack": [
+        "React",
+        "JavaScript",
+        "CSS",
+        "Web Speech / audio",
+        "Vercel"
+      ],
+      "live_url": "https://learnnovaapp-avoq.vercel.app/",
+      "backend_url": "",
+      "backend_label": "Backend API",
+      "repo_url": "",
+      "overview": "LearnNova is a React learning app aimed at children, with a bright illustrated interface. A swipeable welcome carousel introduces the features — for example A–Z phonics with sounds, where kids hear every letter, see the picture and play phonics games — before the child's family signs up or logs in.",
+      "objectives": [
+        "Make early learning feel like play with a friendly, animated interface.",
+        "Teach letters and sounds through audio, pictures and games.",
+        "Provide a simple sign-up / login flow for families.",
+        "Stay responsive across phone, tablet and desktop."
+      ],
+      "features": [
+        "Welcome carousel introducing the app's learning areas.",
+        "A–Z phonics with letter sounds and pictures.",
+        "Phonics games for practice.",
+        "“Get started — it's free” sign-up and “I already have an account” login.",
+        "Illustrated, kid-friendly night-sky theme with floating characters."
+      ],
+      "architecture": "A React single-page application deployed as a static site on Vercel. Components handle the onboarding carousel, authentication screens and learning activities; audio is played in the browser for letter sounds.",
+      "my_role": "Designed and built the interface and learning screens in React, including the onboarding flow and responsive layout, and deployed it.",
+      "challenges": [
+        "Keeping the carousel and animations smooth on low-powered devices.",
+        "Designing large, simple tap targets that suit young children.",
+        "Synchronising letter audio with the pictures and games."
+      ],
+      "outcome": "A deployed, kid-friendly learning front end that can grow into more subjects and levels.",
+      "report_url": "/reports/learnnova-learning-app-project-report.pdf"
+    },
+    {
+      "id": 5,
+      "slug": "groco-grocery-website",
+      "emoji": "leaf",
+      "accent": "mint",
+      "title": "Grocery Website — GroCo",
+      "category": "Frontend · HTML, CSS, JavaScript",
+      "short_description": "A responsive online grocery storefront — product browsing, categories and a clean checkout-style layout built mobile-first with modern CSS.",
+      "image": "/projects/grocery.jpg",
+      "gallery": [
+        {
+          "image": "/projects/grocery.jpg",
+          "caption": "Home page"
+        }
+      ],
+      "tech_stack": [
+        "HTML5",
+        "CSS3",
+        "JavaScript",
+        "Bootstrap",
+        "Vercel"
+      ],
+      "live_url": "https://grocery-website-xizk.vercel.app/",
+      "backend_url": "",
+      "backend_label": "Backend API",
+      "repo_url": "",
+      "overview": "GroCo is a front-end grocery storefront built mobile-first with HTML, CSS, JavaScript and Bootstrap. It focuses on clear product browsing, category navigation and a clean checkout-style layout.",
+      "objectives": [
+        "Practise building a complete multi-section storefront.",
+        "Make the layout fully responsive from phones to desktops.",
+        "Keep browsing and category navigation simple."
+      ],
+      "features": [
+        "Product browsing grouped by category.",
+        "Checkout-style layout.",
+        "Mobile-first responsive design with Bootstrap and custom CSS."
+      ],
+      "architecture": "A static front-end site (HTML, CSS, JavaScript, Bootstrap) deployed on Vercel. There is no backend; product data is part of the page.",
+      "my_role": "Designed and coded the whole site and deployed it.",
+      "challenges": [
+        "Making product grids and navigation behave across screen sizes.",
+        "Keeping custom CSS consistent with Bootstrap defaults."
+      ],
+      "outcome": "A polished front-end project that built the foundation for the later full-stack work.",
+      "report_url": "/reports/groco-grocery-website-project-report.pdf"
+    },
+    {
+      "id": 6,
+      "slug": "hopehands-charity-website",
+      "emoji": "handshake",
+      "accent": "coral",
+      "title": "HopeHands Foundation — Charity Website",
+      "category": "Frontend · HTML, CSS, JavaScript",
+      "short_description": "A responsive charity website with campaign listings and a volunteer/donation-focused layout, designed to feel warm and trustworthy on every screen size.",
+      "image": "/projects/charity.jpg",
+      "gallery": [
+        {
+          "image": "/projects/charity.jpg",
+          "caption": "Home page"
+        }
+      ],
+      "tech_stack": [
+        "HTML5",
+        "CSS3",
+        "JavaScript",
+        "Bootstrap",
+        "Vercel"
+      ],
+      "live_url": "https://charity-website-self.vercel.app/",
+      "backend_url": "",
+      "backend_label": "Backend API",
+      "repo_url": "",
+      "overview": "HopeHands Foundation is a charity website with campaign listings and a volunteer and donation focused layout, designed to feel warm and trustworthy on every screen size.",
+      "objectives": [
+        "Present campaigns clearly and encourage donations and volunteering.",
+        "Build a warm, trustworthy visual style.",
+        "Work well on every screen size."
+      ],
+      "features": [
+        "Campaign listings.",
+        "Volunteer and donation call-to-action sections.",
+        "Responsive layout built with Bootstrap and custom CSS."
+      ],
+      "architecture": "A static front-end site (HTML, CSS, JavaScript, Bootstrap) deployed on Vercel.",
+      "my_role": "Designed and coded the whole site and deployed it.",
+      "challenges": [
+        "Balancing an emotional, welcoming design with clear calls to action.",
+        "Keeping layouts consistent across breakpoints."
+      ],
+      "outcome": "A responsive, deployable charity site that showcases layout and design skills.",
+      "report_url": "/reports/hopehands-charity-website-project-report.pdf"
+    }
+  ],
+  "journey": [
+    {
+      "emoji": "building",
+      "label": "B.E. · 2012–2016",
+      "title": "Civil Engineering",
+      "body": "Structural thinking, systems design and problem-solving — the foundation everything else is built on.",
+      "is_current": false
+    },
+    {
+      "emoji": "receipt",
+      "label": "BEFORE IT",
+      "title": "Estimating & Accounts",
+      "body": "Worked as a Junior Rebar Estimator and a Junior Accountant — precision, numbers and deadlines before switching to IT.",
+      "is_current": false
+    },
+    {
+      "emoji": "sprout",
+      "label": "STEP 1 — DONE",
+      "title": "Front-End Foundations",
+      "body": "HTML, CSS, JavaScript, Bootstrap and React, plus Git & GitHub for version control.",
+      "is_current": false
+    },
+    {
+      "emoji": "terminal",
+      "label": "STEP 2 — NOW",
+      "title": "Full Stack with Python & Django",
+      "body": "Building complete applications: React and React Native interfaces connected to Django REST backends, databases and admin panels.",
+      "is_current": true
+    },
+    {
+      "emoji": "bot",
+      "label": "NEXT",
+      "title": "GenAI Python Full Stack Developer",
+      "body": "Adding generative-AI features to full-stack products.",
+      "is_current": false
+    }
+  ]
+}

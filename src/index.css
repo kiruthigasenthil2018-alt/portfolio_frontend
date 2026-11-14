@@ -1,0 +1,168 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html { scroll-behavior: smooth; }
+
+/* ---- Theme variables (space-separated RGB so Tailwind can add opacity) ---- */
+:root {
+  --bg: 247 240 255; --surface: 255 255 255; --ink: 42 27 77; --inkmuted: 75 60 112;
+  --lav-50: 245 238 255; --lav-100: 234 223 255; --lav-200: 217 198 255; --lav-300: 191 162 251; --lav-400: 164 125 246; --lav-500: 139 92 246; --lav-600: 109 63 208; --lav-700: 79 43 168;
+  --rose-50: 255 240 247; --rose-100: 255 224 239; --rose-200: 255 196 223; --rose-300: 255 156 200; --rose-400: 247 111 173; --rose-500: 240 88 159; --rose-600: 200 40 122;
+  --sky-100: 221 241 255; --sky-300: 138 208 250; --sky-500: 47 168 240; --sky-600: 11 120 196;
+  --mint-100: 214 248 236; --mint-300: 126 227 193; --mint-500: 34 195 154; --mint-600: 11 143 110;
+  --amber-100: 255 240 199; --amber-300: 255 211 107; --amber-500: 245 168 27; --amber-600: 185 106 0;
+  --coral-100: 255 228 220; --coral-300: 255 176 154; --coral-500: 255 122 89; --coral-600: 201 68 42;
+  --line: #D9C6FF; --ph: #7D6FA3;
+}
+html.dark {
+  --bg: 18 12 38; --surface: 30 22 58; --ink: 244 238 255; --inkmuted: 205 192 236;
+  --lav-50: 27 19 51; --lav-100: 40 28 78; --lav-200: 66 48 124; --lav-300: 98 74 178; --lav-400: 164 125 246; --lav-500: 139 92 246; --lav-600: 190 164 255; --lav-700: 217 198 255;
+  --rose-50: 44 20 44; --rose-100: 66 28 68; --rose-200: 104 44 100; --rose-300: 150 60 132; --rose-400: 247 111 173; --rose-500: 240 88 159; --rose-600: 255 156 200;
+  --sky-100: 18 48 76; --sky-300: 30 90 140; --sky-500: 47 168 240; --sky-600: 124 203 255;
+  --mint-100: 14 58 50; --mint-300: 20 110 88; --mint-500: 34 195 154; --mint-600: 111 227 193;
+  --amber-100: 62 46 14; --amber-300: 130 92 16; --amber-500: 245 168 27; --amber-600: 255 211 107;
+  --coral-100: 64 32 24; --coral-300: 140 62 42; --coral-500: 255 122 89; --coral-600: 255 158 134;
+  --line: #4A3490; --ph: #A99AD0;
+}
+
+/* Colour "tones": every card / section picks one, so the page is multi-coloured. Default = lavender. */
+:root, .tone-lavender { --c: #6D3FD0; --soft: #EADFFF; --sh1: #FFC4DF; --sh2: #CDB5FF; --glow: rgba(109, 63, 208, .5); --acc: #8B5CF6; }
+.tone-pink  { --c: #C8287A; --soft: #FFE0EF; --sh1: #CDB5FF; --sh2: #FFB3D6; --glow: rgba(240, 88, 159, .5); --acc: #F0589F; }
+.tone-sky   { --c: #0B78C4; --soft: #DDF1FF; --sh1: #C5F0E2; --sh2: #A9DBFB; --glow: rgba(47, 168, 240, .5); --acc: #2FA8F0; }
+.tone-mint  { --c: #0B8F6E; --soft: #D6F8EC; --sh1: #BFE6FC; --sh2: #8FE6C6; --glow: rgba(34, 195, 154, .5); --acc: #22C39A; }
+.tone-amber { --c: #B96A00; --soft: #FFF0C7; --sh1: #FFC4DF; --sh2: #FFD36B; --glow: rgba(245, 168, 27, .5); --acc: #F5A81B; }
+.tone-coral { --c: #C9442A; --soft: #FFE4DC; --sh1: #FFF0C7; --sh2: #FFB09A; --glow: rgba(255, 122, 89, .5); --acc: #FF7A59; }
+html.dark, html.dark .tone-lavender { --c: #CDB9FF; --soft: #2A1D50; --sh1: #6A2C63; --sh2: #4A3490; --glow: rgba(139, 92, 246, .45); --acc: #8B5CF6; }
+html.dark .tone-pink  { --c: #FFA6CF; --soft: #3A1B38; --sh1: #3F2C7A; --sh2: #7A2E5F; --glow: rgba(240, 88, 159, .4); }
+html.dark .tone-sky   { --c: #86D1FF; --soft: #14304A; --sh1: #12493F; --sh2: #1B5483; --glow: rgba(47, 168, 240, .4); }
+html.dark .tone-mint  { --c: #78E8C8; --soft: #0F3A33; --sh1: #1B4F75; --sh2: #14705A; --glow: rgba(34, 195, 154, .4); }
+html.dark .tone-amber { --c: #FFD97A; --soft: #3E2E0E; --sh1: #6A2C55; --sh2: #7A5A10; --glow: rgba(245, 168, 27, .4); }
+html.dark .tone-coral { --c: #FFA892; --soft: #402018; --sh1: #5A4A12; --sh2: #8A3A26; --glow: rgba(255, 122, 89, .4); }
+
+body {
+  background-color: #F3E9FF;
+  color: rgb(var(--ink));
+  /* GenAI / Python / Full Stack wallpaper over a bright lavender -> pink -> sky -> mint wash */
+  background-image:
+    url('/wallpaper.svg'),
+    radial-gradient(900px 600px at 95% -5%, rgba(139, 92, 246, 0.30), transparent 62%),
+    radial-gradient(800px 600px at -8% 18%, rgba(240, 88, 159, 0.26), transparent 62%),
+    radial-gradient(900px 600px at 100% 60%, rgba(47, 168, 240, 0.22), transparent 62%),
+    radial-gradient(900px 600px at 0% 85%, rgba(34, 195, 154, 0.22), transparent 62%),
+    linear-gradient(180deg, #EFE3FF 0%, #FFE1F0 34%, #E0F2FF 66%, #DDF8EE 100%);
+  background-size: 640px 640px, auto, auto, auto, auto, auto;
+}
+html.dark body {
+  background-color: #120C26;
+  background-image:
+    url('/wallpaper.svg'),
+    radial-gradient(900px 600px at 95% -5%, rgba(139, 92, 246, 0.30), transparent 62%),
+    radial-gradient(800px 600px at -8% 18%, rgba(240, 88, 159, 0.20), transparent 62%),
+    radial-gradient(900px 600px at 100% 60%, rgba(47, 168, 240, 0.18), transparent 62%),
+    radial-gradient(900px 600px at 0% 85%, rgba(34, 195, 154, 0.16), transparent 62%),
+    linear-gradient(180deg, #170F33 0%, #24113A 34%, #101A3A 66%, #0E2430 100%);
+  background-size: 640px 640px, auto, auto, auto, auto, auto;
+}
+
+/* Cards / panels written with bg-white become dark surfaces in dark mode (text-white is untouched). */
+html.dark [class*="bg-white"] { background-color: rgb(var(--surface) / .92); }
+html.dark img { filter: brightness(.94); }
+
+@media (prefers-reduced-motion: reduce) {
+  html { scroll-behavior: auto; }
+  * { animation-duration: 0.01ms !important; transition-duration: 0.01ms !important; }
+}
+
+@layer components {
+  /* "Double shaded" card: tinted surface + two stacked offset shades taken from the card's tone. */
+  .duo {
+    background: linear-gradient(135deg, rgb(var(--surface)) 0%, rgb(var(--surface)) 40%, var(--soft) 140%);
+    border: 1.5px solid var(--sh2);
+    border-radius: 1.25rem;
+    box-shadow: 6px 6px 0 var(--sh1), 12px 12px 0 var(--sh2), 0 22px 40px -24px var(--glow);
+  }
+  .duo-hover { transition: transform .25s ease, box-shadow .25s ease; }
+  .duo-hover:hover {
+    transform: translate(-3px, -3px);
+    box-shadow: 9px 9px 0 var(--sh1), 18px 18px 0 var(--sh2), 0 28px 48px -22px var(--glow);
+  }
+  .tilt { transform-style: preserve-3d; transition: transform .15s ease-out, box-shadow .25s ease; will-change: transform; }
+  .tilt:hover { transform: perspective(900px) rotateX(var(--rx, 0deg)) rotateY(var(--ry, 0deg)) translate(-3px, -3px);
+    box-shadow: 9px 9px 0 var(--sh1), 18px 18px 0 var(--sh2), 0 28px 48px -22px var(--glow); }
+
+  .band { background: linear-gradient(180deg, color-mix(in srgb, var(--soft) 70%, transparent), color-mix(in srgb, var(--soft) 22%, transparent)); }
+
+  .t-c { color: var(--c); }
+  .bg-soft { background: var(--soft); }
+  .bd-c { border-color: var(--sh2); }
+
+  .btn {
+    display: inline-flex; align-items: center; justify-content: center; gap: .5rem;
+    border-radius: 999px; font-weight: 700; font-size: 14.5px; line-height: 1;
+    transition: transform .2s ease, box-shadow .2s ease, background-color .2s ease, border-color .2s ease;
+  }
+  .btn:hover { transform: translateY(-2px); }
+  .btn-primary {
+    color: #fff; padding: 1rem 2rem;
+    background: linear-gradient(100deg, #6D3FD0 0%, #B83FB0 50%, #F0589F 100%);
+    box-shadow: 0 10px 22px -10px rgba(109, 63, 208, 0.75), 4px 4px 0 #FFC4DF;
+  }
+  .btn-primary:hover { box-shadow: 0 14px 26px -10px rgba(240, 88, 159, 0.7), 5px 5px 0 #FFB3D6; }
+  .btn-ghost {
+    color: var(--c); padding: 1rem 2rem; background: rgb(var(--surface)); border: 2px solid var(--sh2);
+    box-shadow: 4px 4px 0 var(--sh1);
+  }
+  .btn-ghost:hover { border-color: var(--acc); box-shadow: 5px 5px 0 var(--sh2); }
+  .btn-sm { padding: .72rem 1.15rem; font-size: 13.5px; }
+
+  .chip {
+    display: inline-flex; align-items: center; gap: .4rem;
+    font-family: 'JetBrains Mono', monospace; font-size: 11.5px; font-weight: 500; padding: .25rem .65rem;
+    border-radius: 999px; color: var(--c); background: var(--soft); border: 1px solid var(--sh2);
+  }
+
+  .field {
+    width: 100%; border-radius: .85rem; padding: .85rem 1rem; font-size: 15px;
+    background: rgb(var(--surface)); border: 2px solid var(--line); color: rgb(var(--ink));
+    transition: border-color .2s, box-shadow .2s;
+  }
+  .field::placeholder { color: var(--ph); }
+  .field:focus { outline: none; border-color: #F0589F; box-shadow: 0 0 0 4px rgba(240, 88, 159, 0.2); }
+
+  .kbd {
+    font-family: 'JetBrains Mono', monospace; font-size: 11px; padding: .1rem .4rem; border-radius: .4rem;
+    background: rgb(var(--surface)); border: 1px solid var(--line); color: rgb(var(--lav-700)); box-shadow: 0 2px 0 var(--line);
+  }
+}
+
+.grad-text {
+  background-image: linear-gradient(90deg, #6D3FD0, #D0399A 45%, #F0589F 62%, #2FA8F0);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+html.dark .grad-text { background-image: linear-gradient(90deg, #C9B3FF, #FF9CC8 50%, #7CCBFF); }
+
+.dot-pulse { animation: pulse 2s ease-in-out infinite; }
+@keyframes pulse { 0%, 100% { opacity: 1; } 50% { opacity: 0.35; } }
+
+.reveal { opacity: 0; transform: translateY(16px); transition: opacity .6s ease, transform .6s ease; }
+.reveal.in { opacity: 1; transform: none; }
+
+.meter-fill {
+  background: linear-gradient(90deg, var(--acc), color-mix(in srgb, var(--acc) 40%, #F0589F));
+  box-shadow: 0 2px 8px color-mix(in srgb, var(--acc) 50%, transparent);
+}
+
+.bob { animation: bob 3.4s ease-in-out infinite; }
+@keyframes bob { 0%, 100% { transform: translateY(0); } 50% { transform: translateY(-6px); } }
+
+.caret { display: inline-block; width: 3px; height: .95em; margin-left: 3px; background: #F0589F; vertical-align: -0.1em; animation: blink 1s steps(1) infinite; }
+@keyframes blink { 50% { opacity: 0; } }
+
+@keyframes marquee { 0% { transform: translateX(0); } 100% { transform: translateX(-50%); } }
+@keyframes pop { 0% { transform: scale(.92) translateY(10px); opacity: 0; } 100% { transform: none; opacity: 1; } }
+.pop { animation: pop .22s ease-out; }
+
+:focus-visible { outline: 3px solid #F0589F; outline-offset: 3px; }
